@@ -1,0 +1,97 @@
+body {
+  background: grey;
+}
+
+.modal {
+  display: grid;
+  justify-content: center;
+  max-width: 200px;
+  width: 100%;
+  margin-inline: auto;
+  background-color: rgb(95, 94, 94);
+  border-radius: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin-top: 100px;
+  padding: 5px;
+  align-items: center;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  gap: 4px;
+  top: -10px;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.836);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+input {
+  outline: 0;
+  border: 0;
+}
+
+#sendBtn {
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.close {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+}
+
+#h1 {
+  margin-top: 25px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  padding: 2px;
+}
+
+.container {
+  max-width: 500px;
+  margin-inline: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(4, 1, 128);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 40px;
+}
